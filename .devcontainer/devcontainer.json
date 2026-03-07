@@ -1,1 +1,35 @@
+{
+  "name": "devops-devcontainer",
 
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+
+  "remoteUser": "vscode",
+
+  "workspaceFolder": "/workspace",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-containers",
+        "redhat.ansible",
+        "hashicorp.terraform",
+        "redhat.vscode-yaml",
+        "timonwong.shellcheck"
+      ]
+    }
+  },
+
+  "postCreateCommand": "pip list",
+
+  "features": {},
+
+  "mounts": [],
+
+  "containerEnv": {
+    "PIP_DISABLE_PIP_VERSION_CHECK": "1"
+  }
+}
