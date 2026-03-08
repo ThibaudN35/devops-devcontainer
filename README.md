@@ -4,6 +4,8 @@ Reproducible development environment for infrastructure automation and DevOps wo
 
 This devcontainer provides a lightweight toolset for **linting, validation and automation**, including Ansible tooling, Dockerfile analysis and common CLI utilities.
 
+The goal is to provide a consistent environment for development and CI-style checks.
+
 ## Features
 
 - **Ansible tooling**: `ansible`, `ansible-lint`
