@@ -132,7 +132,7 @@ Documentation: https://mikefarah.gitbook.io/yq/
 
 ### curl
 
-Tool for transferring data from or to a server using various protocols.
+Command-line tool for transferring data from or to a server using various protocols.
 
 Example:
 
