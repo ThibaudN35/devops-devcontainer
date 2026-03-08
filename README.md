@@ -33,5 +33,5 @@ These examples illustrate typical checks that could run in a CI pipeline or used
 
 ## Documentation
 
-- Tool description: `TOOLS.md`
+- Tool description: `docs/TOOLS.md`
 - Usage example: `examples/`
