@@ -1,6 +1,7 @@
 # Examples
 
-This directory provides minimal examples demonstrating tool embedded inside the devcontainer
+This directory contains minimal examples demonstrating the linting
+tools available in the devcontainer.
 
 ## Ansible
 
