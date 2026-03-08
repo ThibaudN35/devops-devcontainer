@@ -12,6 +12,7 @@ ansible-lint playbook.yml
 ## Python
 
 ```
+pylint main.py
 ruff check main.py
 ```
 
@@ -19,4 +20,10 @@ ruff check main.py
 
 ```
 shellcheck script.sh
+```
+
+## Docker
+
+```
+hadolint Dockerfile
 ```

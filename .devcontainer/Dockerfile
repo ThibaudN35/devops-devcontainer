@@ -34,6 +34,7 @@ RUN apk add --no-cache \
     jq=1.7.1-r0 \
     yq=4.44.3-r0 \
     shellcheck=0.10.0-r1 \
+    hadolint=2.12.0-r0 \
     make=4.4.1-r2 \
     ca-certificates=20241121-r1 \
  && update-ca-certificates
